@@ -1,0 +1,99 @@
+:root {
+  --color-blue: #39b1c6;
+  --color-dblue: #277986;
+  --color-lblue: #cde2e5;
+  --color-white: #ffffff;
+  --color-bombe: #da0505;
+
+  --font-title: Montserrat, sans-serif;
+  --font-body: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: var(--color-dblue);
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: var(--color-white);
+  text-align: center;
+  font-family: var(--font-title);
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 620px;
+}
+
+.cell {
+  height: 50px;
+  width: 50px;
+  border: 3px solid var(--color-lblue);
+  margin: 3px;
+  background-color: var(--color-dblue);
+  border-radius: 10px;
+}
+
+.cell:hover {
+  background-color: var(--color-lblue);
+  cursor: pointer;
+}
+
+.cell-bombe,
+.cell-bombe:hover {
+  background-color: var(--color-bombe);
+  background-image: url("../img/bombe.svg");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cell-flag{
+  background-image: url("../img/Red_flag.svg");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--color-lblue);
+}
+.cell-empty{
+  background-color: var(--color-lblue);
+}
+
+.cell-num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-lblue);
+  font-family: var(--font-body);
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.cell-num-1{
+  color: blue;
+}
+
+.cell-num-2{
+  color: green;
+}
+
+.cell-num-3{
+  color: red;
+}
+
+.cell-num-4{
+  color: navy;
+}
+
+.cell-num-5{
+  color: maroon;
+}

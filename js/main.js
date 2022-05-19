@@ -1,3 +1,5 @@
+// © 2022 Simon Vander Linden
+
 import createVirtualGrid from './createVirtualGrid.js';
 import createHTMLGrid from './createHTMLGrid.js';
 import addBombe from './addBombe.js';

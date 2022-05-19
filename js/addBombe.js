@@ -1,3 +1,5 @@
+// © 2022 Simon Vander Linden
+
 const addBombe = (grid) => {
   const maxBombe = 10;
   const bombeCoords = [];

@@ -1,3 +1,4 @@
+// © 2022 Simon Vander Linden
 
 import onClickCell from "./events/onClickCell.js";
 const addEvenListeners = (grid) => {

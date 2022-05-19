@@ -1,3 +1,5 @@
+// © 2022 Simon Vander Linden
+
 const createHTMLGrid = (grid) => {
   const html = [];
   for (let rowIndex = 0; rowIndex < grid.length; rowIndex++) {

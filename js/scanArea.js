@@ -1,3 +1,5 @@
+// © 2022 Simon Vander Linden
+
 const scanArea = (grid) => {
   for (let rowIndex = 0; rowIndex < grid.length; rowIndex++) {
     for (let colIndex = 0; colIndex < grid.length; colIndex++) {

@@ -1,3 +1,5 @@
+// © 2022 Simon Vander Linden
+
 let time = "300";
 t();
 

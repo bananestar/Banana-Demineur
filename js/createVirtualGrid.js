@@ -1,3 +1,5 @@
+// © 2022 Simon Vander Linden
+
 const createVirtualGrid = () => {
   const gridSize = 10;
   const grid = [];

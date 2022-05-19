@@ -1,3 +1,5 @@
+// © 2022 Simon Vander Linden
+
 import showEmptyCells from './showEmptyCells.js';
 
 const unveil = ({ col, row, grid, target }) => {

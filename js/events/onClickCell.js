@@ -1,3 +1,5 @@
+// © 2022 Simon Vander Linden
+
 import unveil from "../unveil.js";
 const onClickCell = ({ target , grid}) => {
   if (!target.matches(".cell-hidden")) {

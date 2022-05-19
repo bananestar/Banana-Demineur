@@ -19,6 +19,4 @@ createHTMLGrid(grid);
 // Ajout Even clicks
 addEvenListeners(grid);
 
-
-
 console.table(grid);

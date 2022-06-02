@@ -67,7 +67,7 @@ body {
 .cell-empty{
   background-color: var(--color-lblue);
 }
-
+/* gbdfd */
 .cell-num {
   display: flex;
   justify-content: center;
